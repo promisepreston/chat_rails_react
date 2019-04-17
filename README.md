@@ -8,7 +8,7 @@ Error: On npm install: Unhandled rejection Error: EACCES: permission denied
 
 Give ownership to npm like this:
 
-sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.npm<br>
 sudo chown -R $USER:$GROUP ~/.config
 
 
