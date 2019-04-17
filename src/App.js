@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import './App.css'; <-- commented out for styling
-import ConversationsList from './components/ConversationsList';
+import ConversationsList from './components/ConversationsList.js';
 
 class App extends Component {
   render() {
