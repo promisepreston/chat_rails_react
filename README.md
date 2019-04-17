@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Lessons Learnt
+
+Error: On npm install: Unhandled rejection Error: EACCES: permission denied
+
+### Solution:
+
+Give ownership to npm like this:
+
+sudo chown -R $USER:$GROUP ~/.npm
+sudo chown -R $USER:$GROUP ~/.config
+
+
 ## Available Scripts
 
 In the project directory, you can run:
