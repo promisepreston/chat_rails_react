@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Lessons Learnt
 
-Error: On npm install: Unhandled rejection Error: EACCES: permission denied
+1. Error: On npm install: Unhandled rejection Error: EACCES: permission denied
 
 ### Solution:
 
@@ -10,6 +10,13 @@ Give ownership to npm like this:
 
 sudo chown -R $USER:$GROUP ~/.npm<br>
 sudo chown -R $USER:$GROUP ~/.config
+
+2. Permission Issues
+
+### Solution:
+
+add `sudo` to the beginning of the line of the code (i.e. prefix the line of code with the word `sudo`)<br>
+N/B: This issues is particular to Linux users
 
 
 ## Available Scripts
